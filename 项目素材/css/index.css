@@ -1,0 +1,40 @@
+.w1110{
+	width: 1110px;
+	
+}
+.w24{
+	width: 24%;
+}
+.w100{
+	width: 100px;
+}
+.bglv{
+	background-color: #345750;
+}
+.bg{
+	background: url(../images/contact-bg.jpg);
+	height: 805px;
+}
+.dingw {
+	top: 0;
+	background-color: rgba(0,0,0,.5);
+}
+@media screen and (max-width:1110px) {
+	.w1110{
+		width: 100%;
+	}
+	.w24{
+		width: 70%;
+	}
+}
+
+.current {
+    background: blue;
+	color: white !important;
+}
+.po{
+	position: fixed;
+	top: 0;
+	z-index: 11;
+	/* width: 100%; */
+}
